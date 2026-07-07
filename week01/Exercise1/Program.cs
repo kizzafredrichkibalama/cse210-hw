@@ -4,11 +4,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("What is your FirstName? ");
+        // 1. Adjusted prompts to exactly match the requirement (lowercase, space)
+        Console.Write("What is your first name? ");
         string firstName = Console.ReadLine();
-        Console.Write("What is your LastName? ");
+        
+        Console.Write("What is your last name? ");
         string lastName = Console.ReadLine();
-        Console.WriteLine($"You name is, {firstName} {lastName}!");
 
+        // 2. Added a blank line to match the exact spacing in the example
+        Console.WriteLine();
+
+        // 3. Adjusted the output string to perfectly match the "Bond, James Bond" style
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
     }
 }
