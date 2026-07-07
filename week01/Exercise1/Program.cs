@@ -11,7 +11,7 @@ class Program
         Console.Write("What is your last name? ");
         string lastName = Console.ReadLine();
 
-        // 2. Added a blank line to match the exact spacing in the example
+        // 2. Added a blank line to match the exact spacing
         Console.WriteLine();
 
         // 3. Adjusted the output string to perfectly match the "Bond, James Bond" style
