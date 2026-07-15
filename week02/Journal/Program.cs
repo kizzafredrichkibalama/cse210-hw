@@ -31,7 +31,7 @@ DESIGN CLASSES:
 - PromptGenerator: Provides random prompts to users
 - Program: Main menu and user interaction
 
-=================================================================
+
 */
 
 public class Program
