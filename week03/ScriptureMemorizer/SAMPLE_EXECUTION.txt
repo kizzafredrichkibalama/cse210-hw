@@ -1,0 +1,137 @@
+SCRIPTURE MEMORIZER - SAMPLE EXECUTION FLOW
+============================================
+
+EXECUTION 1: Initial Display
+----------------------------------------------------
+Output:
+John 3:16
+
+For God so loved the world that he gave his one and only Son that whoever 
+believes in him shall not perish but have eternal life 
+
+Press enter to hide more words, or type 'quit' to exit.
+
+User Input: [presses Enter]
+
+----------------------------------------------------
+
+EXECUTION 2: After First Enter (5 random words hidden)
+----------------------------------------------------
+Output:
+John 3:16
+
+For _______ so loved the world that he gave his _____ and only Son that 
+whoever believes in him shall not perish but have eternal _______ 
+
+Press enter to hide more words, or type 'quit' to exit.
+
+User Input: [presses Enter]
+
+----------------------------------------------------
+
+EXECUTION 3: After Second Enter (5 more words hidden)
+----------------------------------------------------
+Output:
+John 3:16
+
+For _______ so ______ the world that he gave his _____ and only Son that 
+whoever _______ in him shall not perish but have eternal _______ 
+
+Press enter to hide more words, or type 'quit' to exit.
+
+User Input: [presses Enter]
+
+----------------------------------------------------
+
+EXECUTION 4: Continuing to Hide Words...
+----------------------------------------------------
+Output:
+John 3:16
+
+For _______ so ______ the _____ that he gave his _____ and only Son that 
+_______ _______ in him shall not perish but have eternal _______ 
+
+Press enter to hide more words, or type 'quit' to exit.
+
+User Input: [presses Enter]
+
+(Program continues hiding random words...)
+
+----------------------------------------------------
+
+EXECUTION 5: Near Completion - Almost All Hidden
+----------------------------------------------------
+Output:
+John 3:16
+
+___ ____ so ______ ___ world that __ gave ___ _____ and ____ Son that 
+_______ _______ in ___ shall not perish but have eternal _______ 
+
+Press enter to hide more words, or type 'quit' to exit.
+
+User Input: [presses Enter]
+
+----------------------------------------------------
+
+EXECUTION 6: Completely Hidden - Program Ends
+----------------------------------------------------
+Output:
+John 3:16
+
+___ ____ so ______ ___ _____ ____ __ gave ___ _____ ___ ____ ___ ____ 
+_______ _______ in ___ _____ ___ ______ but have eternal _______ 
+
+Congratulations! You've hidden all the words!
+
+Program Exits
+
+----------------------------------------------------
+
+ALTERNATIVE EXECUTION: User Quits Early
+----------------------------------------------------
+
+At any point, user can type "quit" instead of pressing Enter:
+
+Output:
+Proverbs 3:5-6
+
+Trust in the Lord with all your heart and lean not on your own understanding 
+in all your ways submit to him and he will make your paths straight 
+
+Press enter to hide more words, or type 'quit' to exit.
+
+User Input: quit
+
+Program Exits
+
+----------------------------------------------------
+
+KEY FEATURES DEMONSTRATED
+----------------------------------------------------
+
+1. REFERENCE HANDLING
+   - Single verse: "John 3:16"
+   - Multiple verses: "Proverbs 3:5-6"
+
+2. WORD HIDING
+   - Each word replaced with underscores matching word length
+   - "God" → "___"
+   - "so" → "__"
+   - "believers" → "_________"
+
+3. RANDOM SELECTION
+   - Each run selects different scripture from library
+   - Each press hides different random words (3-5 words)
+   - No two runs are identical
+
+4. PROPER TERMINATION
+   - Press enter to hide more words
+   - Type "quit" to exit
+   - Program ends when all words hidden
+   - Program ends when user types "quit"
+
+5. CLEAN DISPLAY
+   - Console cleared before each display
+   - Reference always shown at top
+   - Scripture text displayed below
+   - User prompt at bottom

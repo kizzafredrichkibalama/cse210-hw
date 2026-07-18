@@ -1,9 +1,7 @@
 using System;
 
 /*
-
 JOURNAL PROGRAM - W02 Assignment
-
 
 PROGRAM OVERVIEW:
 This program helps users maintain a journal by:
@@ -30,8 +28,6 @@ DESIGN CLASSES:
 - Journal: Manages all entries (save, load, display, add)
 - PromptGenerator: Provides random prompts to users
 - Program: Main menu and user interaction
-
-
 */
 
 public class Program
