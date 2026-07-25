@@ -1,25 +1,10 @@
-using System;
 
-class Program
+public class Account
 {
-    static void Main(string[] args)
+    public int _balance = 0;
+
+    public void Deposit(int amount)
     {
-    for (int i = 2; i < 20; i =i+2)
-        {
-            Console.WriteLine($"Hello, World! {i}");
-        }
-    
+        _balance = _balance + amount;
     }
-    foreach (string color in colors)
-    {
-        Console.WriteLine(color);
-
-    }
-    Random random = new Random();
-    int number = random.Next(1, 11);
-    Console.WriteLine($"Random number: {number}");
-    Random random = new Random();
-    int number = random.Next(1, 11);
-
-
 }
