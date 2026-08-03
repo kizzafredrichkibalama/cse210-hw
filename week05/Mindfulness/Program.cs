@@ -74,7 +74,7 @@ class Program
 
     static void DisplayMenu()
     {
-        Console.Clear();
+        Console.WriteLine();
         Console.WriteLine("╔═══════════════════════════════════════╗");
         Console.WriteLine("║    Welcome to the Mindfulness App     ║");
         Console.WriteLine("╚═══════════════════════════════════════╝");

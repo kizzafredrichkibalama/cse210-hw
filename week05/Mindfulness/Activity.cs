@@ -11,7 +11,8 @@ public class Activity
     /// </summary>
     public void DisplayStartingMessage()
     {
-        Console.Clear();
+        Console.WriteLine();
+        Console.WriteLine("════════════════════════════════════════");
         Console.WriteLine($"Welcome to the {_name} Activity.");
         Console.WriteLine();
         Console.WriteLine($"Description: {_description}");
